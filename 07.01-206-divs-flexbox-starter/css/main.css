@@ -108,18 +108,40 @@ body {
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
   font-family: "Homemade Apple", sans-serif;
   font-size: 4em;
-  color: #525252;
   text-decoration: underline;
+  border-style: solid;
+  border-color: #525252;
+  border-width: 1px;
+}
+
+h1, main p {
   background-color: #fff;
+  color: #525252;
   padding: 1em;
+}
+
+main p{
+ font-family: "Montserrat", sans-serif;
+ font-size: 2em;
+}
+
+header, main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
 }
 
 .wrapper {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   justify-content: space-between;
 }
 
